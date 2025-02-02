@@ -1,0 +1,182 @@
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    margin-top: 4rem;
+}
+
+.dashboard-main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.dashboard-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.filter-tabs-container{
+    background-color: white;
+    height: 60px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+.filter-tabs {
+    display: flex;
+    gap: 0.5rem;
+    background-color: transparent;
+    width: 71rem;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+.filter-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 9999px;
+    background-color: #e5e7eb;
+    color: #374151;
+    cursor: pointer;
+}
+
+.filter-button.active {
+    background-color: black;
+    color: white;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.overview-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.card-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-change {
+    font-size: 0.875rem;
+    color: #10b981;
+}
+
+.activity-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.activity-list {
+    list-style: none;
+    color: #374151;
+}
+
+.users-container {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.status {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.status.active {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.status.pending {
+    background-color: #fef3c7;
+    color: #b45309;
+}
+
+.action {
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.action.view {
+    color: #2563eb;
+}
+
+.action.edit {
+    color: #4b5563;
+}
+
+.action.delete {
+    color: #dc2626;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+}
+
+.activity-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.pfp1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.pfp1-u {
+    display: flex;
+    flex-direction: column;
+}

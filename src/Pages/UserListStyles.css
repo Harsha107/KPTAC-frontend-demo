@@ -1,0 +1,170 @@
+.user-list-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9fafb;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        display: block;
+    }
+}
+
+.main-content2 {
+    flex: 1;
+    margin-left: 16rem;
+        /* Adjust for sidebar */
+    margin-top: 4rem;
+        /* Space for navbar */
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-button {
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25rem;
+}
+
+.user-table-container {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 75rem;
+    margin-left: -16rem;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.table-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.table-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.search-input {
+    width: 12rem;
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25rem;
+}
+
+.search-button,
+.add-user-button {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.add-user-button {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #e5e7eb;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #f3f4f6;
+}
+
+.username {
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+
+.status {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.status-active {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.status-pending {
+    background-color: #fef3c7;
+    color: #b45309;
+}
+
+.action {
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.action.view {
+    color: #2563eb;
+}
+
+.action.edit {
+    color: #4b5563;
+}
+
+.action.delete {
+    color: #dc2626;
+}
+
+.pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.page-button {
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.25rem;
+}
+
+.ul-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.ul-td1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.ul-td1-u {
+    display: flex;
+    flex-direction: column;
+}

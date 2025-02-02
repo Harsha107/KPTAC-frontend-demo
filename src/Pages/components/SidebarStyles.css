@@ -1,0 +1,99 @@
+.sidebar {
+    width: 16rem;
+    background-color: #f3f4f6;
+    display: none;
+}
+
+.sidebar-title,
+.sidebar-menu {
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        display: block;
+    }
+}
+
+.sidebar-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.sidebar-menu {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:hover {
+    background-color: #e5e7eb;
+}
+
+.menu-icon {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.sidebar-profile {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 45%;
+    margin-left: -1rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 1rem;
+}
+
+.profile-name {
+    font-size: 0.1rem;
+    font-weight: 600;
+}
+
+.profile-email {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.sidebar-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.sidebar-nav {
+    margin-top: 1rem;
+}
+
+.nav-item {
+    padding: 0.5rem 0;
+    color: #4b5563;
+    cursor: pointer;
+}
+
+.nav-item.active {
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.sidebar {
+    width: 16rem;
+    background-color: white;
+    padding: 1rem;
+    border-right: 1px solid #e5e7eb;
+    display: none;
+}
