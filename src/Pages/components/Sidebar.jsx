@@ -5,16 +5,16 @@ import './SidebarStyles.css';
 const Sidebar = () => {
   return (
     <aside className="sidebar">
-      <h2 className="sidebar-title">Dashboard</h2>
+      <a href="/"><h2 className="sidebar-title">Dashboard</h2></a>
       <ul className="sidebar-menu">
         <li className="menu-item">
-          <i className="fas fa-bars menu-icon"></i> Overview
+          <i className="fas fa-bars menu-icon"></i><a href="/dashboard-overview">Overview</a>
         </li>
         <li className="menu-item">
-          <i className="fas fa-user-group menu-icon"></i> Users
+          <i className="fas fa-user-group menu-icon"></i> <a href="/user-list">Users</a>
         </li>
         <li className="menu-item">
-          <i className="fas fa-clipboard-list menu-icon"></i> Posts
+          <i className="fas fa-clipboard-list menu-icon"></i> <a href="/posts-page">Posts</a>
         </li>
       </ul>
       <div className="sidebar-profile">
