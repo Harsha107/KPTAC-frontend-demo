@@ -1,13 +1,9 @@
-/* Navbar */
 .navbar {
     position: fixed;
-    /* Fix the navbar at the top */
     top: 0;
     left: 16rem;
-    /* Adjust according to sidebar width */
     right: 0;
     height: 4rem;
-    /* Set height */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,22 +13,17 @@
     z-index: 1000;
 }
 
-/* Sidebar Fix */
 .main-content {
     margin-left: 16rem;
-    /* Adjust for sidebar */
     margin-top: 4rem;
-    /* Space for navbar */
     padding: 1rem;
 }
 
-/* Title */
 .nav-title {
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-/* Search and Icons */
 .nav-actions {
     display: flex;
     align-items: center;

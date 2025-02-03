@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Chart as ChartJS, BarElement, CategoryScale, LinearScale, Tooltip, Legend } from "chart.js";
 import { Bar } from "react-chartjs-2";
 import "./PostsPageStyles.css";
@@ -9,7 +9,6 @@ import pfp from '../Assets/dino_pfp.jpg';
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 const PostsPage = () => {
-  const [filter, setFilter] = useState("All Posts");
 
   const posts = [
     {
